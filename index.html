@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Zoo - Movie Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <h1>🎬 Movie Zoo</h1>
+      </div>
+      <div class="search-box">
+        <input
+          type="search"
+          id="searchInput"
+          placeholder="Search movies by title..."
+        />
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-genre="All">All</button>
+        <button class="filter-btn" data-genre="Action">Action</button>
+        <button class="filter-btn" data-genre="Sci-Fi">Sci-Fi</button>
+        <button class="filter-btn" data-genre="Drama">Drama</button>
+        <button class="filter-btn" data-genre="Animation">Animation</button>
+      </div>
+
+      <div class="movie-grid" id="movieGrid">
+        <!-- I used Javascript to automatically insert movie data -->
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Movie Zoo | Web Development Final Project</p>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
